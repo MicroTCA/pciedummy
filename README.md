@@ -17,6 +17,8 @@ to install the driver run "./sc" as root and run "depmod -a" as root
 run modprobe sis8160
 the driver will crate device file /dev/sis8160sX X-is a slot number where You have your device
 
+install 10-sis8160.rules in /etc/udev/rules.d/
+
 
 compile, install and enjoy
 
