@@ -1,0 +1,3 @@
+SUBSYSTEM=="devname",	MODE="0666"
+KERNEL=="devnames3",	SYMLINK="devname0"
+
