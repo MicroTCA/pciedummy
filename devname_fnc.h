@@ -29,12 +29,12 @@
 
 #define DEVNAME "devname"	                                        /* name of device */
 
-#define DEVNAME_VENDOR_ID 0x10EE	                    /* XILINX vendor ID  change to board vendor ID*/
-#define DEVNAME_DEVICE_ID 0x0088	                    /* change to  board device ID  */
+//#define DEVNAME_VENDOR_ID 0x10EE	                    /* XILINX vendor ID  change to board vendor ID*/
+//#define DEVNAME_DEVICE_ID 0x0088	                    /* change to  board device ID  */
 
 //use this to test driver on sis8160 board
-//#define DEVNAME_VENDOR_ID 0x1796	                    /* XSIS vendor ID*/
-//#define DEVNAME_DEVICE_ID 0x0028	                    /* sis8160 device ID  */
+#define DEVNAME_VENDOR_ID 0x1796	                    /* XSIS vendor ID*/
+#define DEVNAME_DEVICE_ID 0x0028	                    /* sis8160 device ID  */
 
 #define DEVNAME_SUBVENDOR_ID PCI_ANY_ID	
 #define DEVNAME_SUBDEVICE_ID PCI_ANY_ID	
